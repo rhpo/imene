@@ -41,7 +41,7 @@
 	<meta name="yandex-verification" content="your-yandex-verification-code" />
 </svelte:head>
 
-<main class="flex min-h-[100dvh] flex-col space-y-10">
+<div class="flex min-h-full flex-col space-y-10">
 	<section id="hero">
 		<div class="mx-auto w-full max-w-2xl space-y-8">
 			<div class="flex justify-between gap-2">
@@ -247,7 +247,7 @@
 			</BlurFade>
 		</div>
 	</section>
-</main>
+</div>
 
 <style>
 	#hackathons .content {
