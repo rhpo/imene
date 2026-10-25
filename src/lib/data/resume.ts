@@ -44,7 +44,7 @@ export const DATA_FR = {
 		last: 'Hadid'
 	},
 	initials: 'IH',
-	url: 'https://www.youtube.com/@dozfikr',
+	url: 'https://imene.codiha.com',
 	img: '/pfp.png',
 	location: 'Paris, France',
 	locationLink: 'https://www.google.com/maps/place/Paris',
@@ -329,7 +329,7 @@ export const DATA_EN = {
 		last: 'Hadid'
 	},
 	initials: 'IH',
-	url: 'https://www.youtube.com/@dozfikr',
+	url: 'https://imene.codiha.com',
 	img: '/pfp.png',
 	location: 'Paris, France',
 	locationLink: 'https://www.google.com/maps/place/Paris',

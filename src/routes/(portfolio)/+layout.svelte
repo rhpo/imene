@@ -40,7 +40,7 @@
 			transform: "scaleY(-100%)",
 		},
 
-				{
+		{
 			url: "wallpaper.jpg",
 			filter: "brightness(0.4)"
 		},
@@ -49,6 +49,11 @@
 			url: "wallpaper.jpg",
 			filter: "brightness(0.4)",
 			transform: "scaleY(-100%)",
+		},
+
+		{
+			url: "wallpaper.jpg",
+			filter: "brightness(0.4)"
 		},
 	];
 </script>

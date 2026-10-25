@@ -24,7 +24,7 @@
 	<meta property="og:description" content={DATA.description} />
 	<meta property="og:url" content={DATA.url} />
 	<meta property="og:site_name" content={DATA.name} />
-	<meta property="og:image" content={DATA.img} />
+	<meta property="og:image" content="{DATA.url}{DATA.img}" />
 	<meta property="og:locale" content={$locale === 'fr' ? 'fr_FR' : 'en_US'} />
 	<meta property="og:type" content="website" />
 	<meta name="robots" content="index, follow" />
@@ -34,7 +34,7 @@
 	/>
 	<meta name="twitter:title" content="{DATA.name}, {$locale === 'fr' ? 'Écologue' : 'Ecologist'}" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:image" content={DATA.img} />
+	<meta name="twitter:image" content="{DATA.url}{DATA.img}" />
 	<meta name="twitter:description" content={DATA.description} />
 
 	<meta name="google-site-verification" content="your-google-verification-code" />
